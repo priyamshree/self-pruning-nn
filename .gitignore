@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+data/               # CIFAR-10 download (~170 MB, regenerated on run)
+results/*.png       # Keep results tables tracked, ignore plots if you prefer
+*.pth
+*.pt
+*.ckpt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+data/
+*.tar.gz
